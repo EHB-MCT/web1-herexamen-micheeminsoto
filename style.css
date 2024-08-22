@@ -10,14 +10,18 @@ body{
     background-color: #FAFAFF;
 }
 
-h1,h2{
+h1{
     font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family:  "Helvetica", sans-serif;
     text-align: center;
 }
 
 p{
     font-family:  "Helvetica", sans-serif;
-    text-align: center;
 }
 
 a{
@@ -27,6 +31,7 @@ a{
     font-weight: 700;
   
 }
+
 
 header{
     background-color: #3A51E8;
@@ -101,9 +106,8 @@ nav a{
 
 
 
-
 .content p {
-    padding: 0  5%;
+    padding: 0 5%;
 }
 
 .content image {
@@ -112,11 +116,25 @@ nav a{
    
 }
 
-.content img {
+.friction-1 img {
     width: 20%;
     margin-left: 20%;
   
 }
+
+
+.friction-2 img {
+    width: 20%;
+    margin-left: 20%;
+  
+}
+
+.friction-3 img {
+    width: 20%;
+    margin-left: 20%;
+  
+}
+
 
 .outro{
     background-color: #3A51E8;
@@ -135,9 +153,8 @@ nav a{
     color: white;
     background-color: #121583;
     border: 1px solid #121583;
-    border-radius: 20px 10px;
-    padding: 15px;
-    width: 220px;
+    border-radius: 40px 10px;
+    padding: 20px;
     align-self: center;
 }
 
@@ -148,7 +165,6 @@ nav a{
 
 @media (min-width: 1200px) {
 	header,
-	.intro,
 	.content,
 	.outro {
 		width: 1200px;
@@ -168,8 +184,44 @@ nav a{
         justify-content: center;
     }
 
+    h1{
+        text-align: start;
+    }
+
+
 }
 
 @media (min-width:768px) {
-    
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 40px;
+    }
+
+    nav{
+        align-items: center;
+    }
+
+    nav a {
+        margin: 0 10px;
+    }
+
+    #button {
+        color: white;
+        background-color: #121583;
+        border: 1px solid #121583;
+        padding: 20px;
+        border-radius: 10px;
+        padding-left: 30px ;
+        padding-right: 30px;
+        font-weight: bold;
+
+    }
+
+    #button :hover {
+        background-color: #C16FD2;
+        border: 1px solid #C16FD2;
+    }
+
 }
