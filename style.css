@@ -7,6 +7,169 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: #FAFAFF;
+}
+
+h1,h2{
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family:  "Helvetica", sans-serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
+  
+}
+
+header{
+    background-color: #3A51E8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.logo{
+    display: flex;
+   padding-left: 20px;
+}
+
+.logo img{
+    width: 120%;
+}
+
+nav{
+    display: flex;
+   justify-content: end;
+    flex-direction: row;
+
+}
+
+nav a{
+    margin: auto 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.intro{
+    background-color: #3A51E8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: auto 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.intro .text h1, 
+.intro .text p   {
+    color: white;
+}
+
+.intro .text h1 {
+    padding: 0 5%;
+}
+
+.intro .text p {
+    padding: 0  1%;
+}
+
+.intro .image {
+    display: flex;
+    justify-content: center;
+}
+
+.intro img {
+    width: 30%;
+}
+
+.content {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: auto 20px;
+    padding-bottom: 0;
 }
 
 
+
+
+.content p {
+    padding: 0  5%;
+}
+
+.content image {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.content img {
+    width: 20%;
+    margin-left: 20%;
+  
+}
+
+.outro{
+    background-color: #3A51E8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 20px;
+}
+
+.outro h1,
+.outro p {
+    color: white;
+}
+
+.outro a {
+    color: white;
+    background-color: #121583;
+    border: 1px solid #121583;
+    border-radius: 20px 10px;
+    padding: 15px;
+    width: 220px;
+    align-self: center;
+}
+
+.outro a:hover {
+    background-color: #C16FD2;
+    border: 1px solid #C16FD2;
+}
+
+@media (min-width: 1200px) {
+	header,
+	.intro,
+	.content,
+	.outro {
+		width: 1200px;
+		align-items: center;
+		align-self: center;
+	}
+
+    .blue {
+        display: flex;
+        justify-content: center;
+        background-color: #3A51E8;
+    }
+
+    .white {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width:768px) {
+    
+}
